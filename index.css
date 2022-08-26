@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+tr {
+  padding: auto;
+  background-color: aqua;
+}
+td{
+  padding:14px;
+  border:1px solid yellowgreen;
+}
+th{
+  border:1px solid yellowgreen;
+  background-color: grey;
+}
+.tieude{
+	background-color: rgb(27, 27, 27);
+	width: 100%;
+	height: 60px;
+	display: inline-flex;
+}
+.tieude-con{
+	color: white;
+	font-size: 30px;
+	font-family: Helvetica;
+	line-height: 60px;
+	font-weight: 550;
+	padding-left: 12px;
+	margin-right: 12px;
+}
+.tieude-con strong{
+	color: black;
+	background-color: orange;
+	border-radius: 5px;
+	padding: 1px;
+	margin-left: 3px;
+}
+.upgrade a{
+	text-decoration: none;
+}
+.upgrade strong{
+	color: black;
+	background-color: orange;
+	font-size: 15px;
+	line-height: 60px;
+	border-radius: 4px;
+	font-family: Helvetica;
+	font-weight: 600;
+	margin-left: 12px;
+	padding: 1px;
+	margin-right: 0%;
+}
+.upgrade strong:hover{
+	background-color: #f48924;
+	transition: 0.4s;
+}
+.wrapper-search{
+	line-height: 60px;
+	margin-left: 30px;
+	position: relative;
+	height: 15px;
+	border-color: white;
+	vertical-align: middle;
+	position: relative;
+}
+.wrapper-search input{
+	width: 260px;
+	background-color: #3f3f3f;
+	color: #858585;
+	border: none;
+	font-size: 15px;
+	padding: 4px;
+	padding-left: 24px;
+	border-radius: 4px;
+	outline: none;
+}
+.wrapper-search .icon{
+	color: #858585;
+	background-color: #3f3f3f;
+	position: absolute;
+	font-size: 15px;
+	padding-left: 4px;
+	padding-right: 4px;
+	top: 0%;
+	bottom: 100%;
+	z-index: 1;
+}
+.in{
+	color: #858585;
+	line-height: 60px;
+	background-color: #3f3f3f;
+	float: left;
+	text-align: center;
+}
+.Login{
+	position: absolute;
+	right: 70px;
+}
+.Login a{
+	display: block;
+	text-decoration: none;
+	width: 70px;
+	color: #858585;
+}
+.Login a:hover{
+	background-color: #565654;
+	transition: 0.4s
+}
+.Signin{
+	position: absolute;
+	right: 0px;
+}
+.Signin a{
+	display: block;
+	text-decoration: none;
+	color: #858585;
+	width: 70px;
+}
+.Signin a:hover{
+	background-color: #565654;
+	transition: 0.4s;
+}
+.tab{
+	border-top: 1px solid #565654;
+	display: inline-flex;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	background-color: rgb(27, 27, 27);
+	list-style-type: none;
+}
+.tab a{
+	border-bottom: 1px solid #565654;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #858585;
+}
+.tab .tab-child a:hover{
+	background-color: #3f3f3f;
+	border-top:2px solid orange;
+	transition: 0.3s;
+}
+.tab .Boss{
+	background-image: linear-gradient(-90deg,orange,rgb(27, 27, 27));
+	font-size: 16px;
+	font-weight: 700;
+}
+.tab .Boss strong{
+	font-size: 14px;
+	margin-left: 30px;
+	margin-right: 60px;
+	color: transparent;
+}
+.tab .Boss strong:hover{
+	color: #16f293;
+	transition: 0.4s;
+}
+
